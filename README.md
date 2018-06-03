@@ -14,7 +14,9 @@ This project helped me learn the fundamentals of responsive design and solidifie
 Requirements
 -----------------------
 Must have [Python2.7](https://www.python.org/downloads/), [Vagrant](https://releases.hashicorp.com/vagrant/?_ga=2.146818743.1445943320.1515078265-241047305.1515078265), and [Virtual Box 5.1](https://www.virtualbox.org/wiki/Downloads)
+
 Download the Virtual Machine Configuration [HERE](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip)
+
 Download the newsdata.sql zip file [HERE](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 
