@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import psycopg2
 
 
@@ -51,13 +52,12 @@ def get_query(query):
         for row in q:
             print row
         print "\n"
-    except:
-        print "Cannot connect to database."
-       
-        
+     except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
 # Will run if this script is run directly.
-# If imported, the get_query function only will be retreived for anyone to input 
-# their queries and databases
+# If imported, the get_query function only will be retreived for anyone
+# to input their queries and/or databases
 if __name__ == '__main__':
     print query_one
     get_query(query_one_ans)
