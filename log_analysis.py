@@ -56,7 +56,7 @@ def get_query(query):
         q = c.fetchall()
         db.close()
         for row in q:
-            print row
+            print "'{0}' -- {1} ".format(row[0], row[1])
         print "\n"
      except (Exception, psycopg2.DatabaseError) as error:
         print(error)
